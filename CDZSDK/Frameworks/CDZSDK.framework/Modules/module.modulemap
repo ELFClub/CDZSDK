@@ -1,0 +1,6 @@
+framework module CDZSDK {
+  umbrella header "CDZSDK.h"
+
+  export *
+  module * { export * }
+}
