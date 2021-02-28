@@ -17,8 +17,8 @@ Pod::Spec.new do |spec|
 
 
 
-  spec.homepage     = "https://github.com/ELFClub/ELSDK.git"
-  spec.source       = { :git => "https://github.com/ELFClub/ELSDK.git", :tag => spec.version.to_s }
+  spec.homepage     = "https://github.com/ELFClub/CDZSDK.git"
+  spec.source       = { :git => "https://github.com/ELFClub/CDZSDK.git", :tag => spec.version.to_s }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -28,7 +28,7 @@ Pod::Spec.new do |spec|
   spec.frameworks   = 'UIKit', 'Security', 'AdSupport'
   spec.libraries    = 'c++'
 
-  spec.vendored_frameworks =  ['ELSDK/Frameworks/ELSDK.framework','ELSDK/Frameworks/TapDB_iOS.framework']
+  spec.vendored_frameworks =  ['CDZSDK/Frameworks/CDZSDK.framework','CDZSDK/Frameworks/TapDB_iOS.framework']
 
   valid_archs     = ['armv7', 'x86_64', 'arm64']
   spec.xcconfig   = {
