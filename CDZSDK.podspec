@@ -1,8 +1,8 @@
 
 Pod::Spec.new do |spec|
 
-  spec.name         = "ELSDK"
-  spec.version      = "6.3.5.1"
+  spec.name         = "CDZSDK"
+  spec.version      = "6.3.5.2"
   spec.summary      = "use CDZSDK."
 
   spec.description  = <<-DESC
