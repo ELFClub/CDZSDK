@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "CDZSDK"
-  spec.version      = "6.3.5.3"
+  spec.version      = "6.3.5.4"
   spec.summary      = "use CDZSDK."
 
   spec.description  = <<-DESC
