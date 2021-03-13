@@ -158,7 +158,7 @@
 /**
  *  @brief 隐藏选服按钮
  */
-- (void)hideFloatingButton;
+- (void)fadeFloatingButton;
 
 @end
 
@@ -317,7 +317,7 @@
 /**
  *  @brief 根据Url显示网页。
  */
-- (void)showWebView:(NSString *)urlString;
+- (void)showCusView:(NSString *)urlString;
     
 /**
  *  @brief 是否绑定邮箱了

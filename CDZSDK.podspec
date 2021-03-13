@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "CDZSDK"
-  spec.version      = "6.3.5.4"
+  spec.version      = "6.3.5.5"
   spec.summary      = "use CDZSDK."
 
   spec.description  = <<-DESC
@@ -36,7 +36,7 @@ Pod::Spec.new do |spec|
     'VALID_ARCHS' =>  valid_archs.join(' '),
   }
   
-  spec.dependency 'FBSDKCoreKit','~> 8.1.0'
-  spec.dependency 'FBSDKLoginKit','~> 8.1.0'
+  spec.dependency 'FBSDKCoreKit','~> 9.1.0'
+  spec.dependency 'FBSDKLoginKit','~> 9.1.0'
 
 end

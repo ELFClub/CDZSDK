@@ -13,14 +13,14 @@
 extern NSString *const CDZ_LOGIN_NOTIFICATION;              //登录
 extern NSString *const CDZ_LOGOUT_NOTIFICATION;             //退出
 extern NSString *const CDZ_SWITCHACCOUNT_NOTIFICATION;      //切换账号
-extern NSString *const CDZ_WEBVIEW_CLOSE_NOTIFICATION;      //关闭webview的通知，内部使用
-extern NSString *const CDZ_WEBVIEW_LOGOUT_NOTIFICATION;     //页面webview，点击退出
-extern NSString *const CDZ_WEBVIEW_CUSTOMER_NOTIFICATION;   //平台键点开的页面关闭通知
+extern NSString *const CDZ_CUSVIEW_CLOSE_NOTIFICATION;      //关闭webview的通知，内部使用
+extern NSString *const CDZ_CUSVIEW_LOGOUT_NOTIFICATION;     //页面webview，点击退出
+extern NSString *const CDZ_CUSVIEW_CUSTOMER_NOTIFICATION;   //平台键点开的页面关闭通知
 
 extern NSString *const CDZ_INFO_VIEW_CLOSE_NOTIFICATION;   //关闭InfoView
 
-extern NSString *const CDZ_TIPS_WEBVIEW_CLOSE_NOTIFICATION;  //TIPS页面 关闭
-extern NSString *const CDZ_TIPS_WEBVIEW_RESULT_NOTIFICATION;
+extern NSString *const CDZ_TIPS_CUSVIEW_CLOSE_NOTIFICATION;  //TIPS页面 关闭
+extern NSString *const CDZ_TIPS_CUSVIEW_RESULT_NOTIFICATION;
 
 //GameCenter
 extern NSString *const CDZ_PRESENT_AUTHVIEWCONTROLLER_NOTIFICATION;
@@ -68,7 +68,7 @@ typedef NS_ENUM(NSInteger, CDZSTATUS) {
     message_issue_success,                  //物品下发成功
     message_issue_error,                    //物品下发失败
     
-    message_web_logout = 100,               //webview注销
+    message_cus_logout = 100,               //webview注销
 };
 
 typedef NS_ENUM(NSInteger, CDZLoginType) {
