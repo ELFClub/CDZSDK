@@ -1,0 +1,6 @@
+framework module ENGSDK {
+  umbrella header "ENGSDK.h"
+
+  export *
+  module * { export * }
+}
