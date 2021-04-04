@@ -1,9 +1,9 @@
 
 Pod::Spec.new do |spec|
 
-  spec.name         = "CDZSDK"
+  spec.name         = "CEYSDK"
   spec.version      = "6.3.6.1"
-  spec.summary      = "use CDZSDK."
+  spec.summary      = "use CEYSDK."
 
   spec.description  = <<-DESC
                       a easy way to use ENGSDK
@@ -28,8 +28,8 @@ Pod::Spec.new do |spec|
   spec.frameworks   = 'UIKit', 'Security', 'AdSupport'
   spec.libraries    = 'c++'
 
-  spec.vendored_frameworks =  ['ENGSDK/Frameworks/ENGSDK.framework','ENGSDK/Frameworks/TapDB_iOS.framework']
-  spec.resource = 'ENGSDK/Frameworks/ENGSDK.framework/ENGBundle.bundle'
+  spec.vendored_frameworks =  ['CEYSDK/Frameworks/CEYSDK.framework','CEYSDK/Frameworks/TapDB_iOS.framework']
+  spec.resource = 'CEYSDK/Frameworks/CEYSDK.framework/CEYBundle.bundle'
 
   valid_archs     = ['armv7', 'x86_64', 'arm64']
   spec.xcconfig   = {

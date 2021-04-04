@@ -1,0 +1,6 @@
+framework module CEYSDK {
+  umbrella header "CEYSDK.h"
+
+  export *
+  module * { export * }
+}
