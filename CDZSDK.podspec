@@ -2,11 +2,11 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "CDZSDK"
-  spec.version      = "6.3.5.5"
+  spec.version      = "6.3.6.1"
   spec.summary      = "use CDZSDK."
 
   spec.description  = <<-DESC
-                      a easy way to use CDZSDK
+                      a easy way to use ENGSDK
                    DESC
 
   spec.license      = { :type => "MIT", :file => "LICENSE" }
@@ -28,8 +28,8 @@ Pod::Spec.new do |spec|
   spec.frameworks   = 'UIKit', 'Security', 'AdSupport'
   spec.libraries    = 'c++'
 
-  spec.vendored_frameworks =  ['CDZSDK/Frameworks/CDZSDK.framework','CDZSDK/Frameworks/TapDB_iOS.framework']
-  spec.resource = 'CDZSDK/Frameworks/CDZSDK.framework/CDZBundle.bundle'
+  spec.vendored_frameworks =  ['ENGSDK/Frameworks/ENGSDK.framework','ENGSDK/Frameworks/TapDB_iOS.framework']
+  spec.resource = 'ENGSDK/Frameworks/ENGSDK.framework/ENGBundle.bundle'
 
   valid_archs     = ['armv7', 'x86_64', 'arm64']
   spec.xcconfig   = {
