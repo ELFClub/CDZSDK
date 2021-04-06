@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "CEYSDK"
-  spec.version      = "6.3.6.1"
+  spec.version      = "6.3.6.2"
   spec.summary      = "use CEYSDK."
 
   spec.description  = <<-DESC
