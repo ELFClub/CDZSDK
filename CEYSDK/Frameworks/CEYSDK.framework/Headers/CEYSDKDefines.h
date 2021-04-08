@@ -2,7 +2,7 @@
 //  CEYSDKDefines.h
 //  CEYSDK
 //
-//  Created by bruce on 16/3/8.
+//  Created by stephen on 16/3/8.
 //  Copyright © 2016年. All rights reserved.
 //
 
@@ -49,7 +49,7 @@ extern NSString *const CEY_LOGIN_COLSE_JSOC;         //web关闭
 extern NSString *const CEY_LOGIN_FB_JSOC;            //FB登陆回调
 extern NSString *const CEY_LOGIN_GOOGLE_JSOC;        //Google登陆回调
 extern NSString *const CEY_LOGOUT_JSOC;              //注销
-extern NSString *const CEY_SHARE_WECHAT_JSOC;        //微信分享回调
+//extern NSString *const CEY_SHARE_WECHAT_JSOC;        //微信分享回调
 extern NSString *const CEY_REVIEW_STAR_JSOC;
 extern NSString *const CEY_REMOVE_TRANSCATIONS;      //删除TRANSCATIONS
 extern NSString *const CEY_SIMULATED_LOGIN_JSOC;     //模拟登录
