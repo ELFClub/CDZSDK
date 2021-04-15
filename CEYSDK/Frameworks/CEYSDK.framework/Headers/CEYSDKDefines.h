@@ -2,7 +2,7 @@
 //  CEYSDKDefines.h
 //  CEYSDK
 //
-//  Created by stephen on 16/3/8.
+//  Created by bruce on 16/3/8.
 //  Copyright © 2016年. All rights reserved.
 //
 

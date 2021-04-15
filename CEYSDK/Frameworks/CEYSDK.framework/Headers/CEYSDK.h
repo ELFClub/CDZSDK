@@ -1,7 +1,7 @@
 //
 //  CEYSDK.h
 //
-//  Created by stephen on 2017/8/18.
+//  Created by bruce on 2017/8/18.
 //  Copyright © 2017年. All rights reserved.
 //
 
