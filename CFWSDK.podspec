@@ -29,7 +29,7 @@ Pod::Spec.new do |spec|
   spec.libraries    = 'c++'
 
   spec.vendored_frameworks =  ['CFWSDK/Frameworks/CFWSDK.framework','CFWSDK/Frameworks/TapDB_iOS.framework']
-  spec.resource = 'CFWSDK/Frameworks/CFWSDK.framework/CEYBundle.bundle'
+  spec.resource = 'CFWSDK/Frameworks/CFWSDK.framework/CFWBundle.bundle'
 
   valid_archs     = ['armv7', 'x86_64', 'arm64']
   spec.xcconfig   = {
