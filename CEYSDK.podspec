@@ -1,12 +1,12 @@
 
 Pod::Spec.new do |spec|
 
-  spec.name         = "CEYSDK"
-  spec.version      = "6.3.6.6"
+  spec.name         = "CFWSDK"
+  spec.version      = "6.3.7.1"
   spec.summary      = "use CEYSDK."
 
   spec.description  = <<-DESC
-                      a easy way to use ENGSDK
+                      a easy way to use CFWSDK
                    DESC
 
   spec.license      = { :type => "MIT", :file => "LICENSE" }
@@ -28,8 +28,8 @@ Pod::Spec.new do |spec|
   spec.frameworks   = 'UIKit', 'Security', 'AdSupport'
   spec.libraries    = 'c++'
 
-  spec.vendored_frameworks =  ['CEYSDK/Frameworks/CEYSDK.framework','CEYSDK/Frameworks/TapDB_iOS.framework']
-  spec.resource = 'CEYSDK/Frameworks/CEYSDK.framework/CEYBundle.bundle'
+  spec.vendored_frameworks =  ['CFWSDK/Frameworks/CFWSDK.framework','CFWSDK/Frameworks/TapDB_iOS.framework']
+  spec.resource = 'CFWSDK/Frameworks/CFWSDK.framework/CEYBundle.bundle'
 
   valid_archs     = ['armv7', 'x86_64', 'arm64']
   spec.xcconfig   = {

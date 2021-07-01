@@ -1,0 +1,6 @@
+framework module CFWSDK {
+  umbrella header "CFWSDK.h"
+
+  export *
+  module * { export * }
+}
